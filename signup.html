@@ -12,22 +12,21 @@
   </head>
   <body class="text-center">
     <main class="row justify-content-center form-signin">
-        <form class="col-xs col-sm-8 col-md-6 col-lg-4">
+        <form action="/" method="post" class="col-xs col-sm-8 col-md-6 col-lg-4">
             <img class="mb-4" src="/images/programmer_03__Converted__generated.jpg" alt="" width="220">
             <h1 class="h4 mb-3 fw-normal">Register to my monthly newsletter!</h1>
             <div class="form-floating">
-                <input type="text" class="form-control" id="firstName" placeholder="First Name">
-                <label for="firstName">First Name</label>
+                <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name">
+                <label for="firstname">First Name</label>
             </div>
             <div class="form-floating">
-                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-                <label for="lastName">Last Name</label>
+                <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name">
+                <label for="lastname">Last Name</label>
             </div>
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email</label>
             </div>
-            
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
         </form>
     </main>
